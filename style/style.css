@@ -9,11 +9,20 @@ h1 {
 
 p {
   font-size: large;
+  font-family: "EB Garamond", serif;
+}
+
+.self {
+  color: white;
+}
+
+.self-font {
+  font-family: "EB Garamond", serif;
 }
 
 .about-me-section {
-  background: red;
-  background-image: url("https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-color: rgb(18, 16, 16);
+  /* background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
 /* The side navigation menu */
