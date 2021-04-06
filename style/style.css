@@ -25,6 +25,14 @@ p {
   /* background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
+.gallery__img {
+  float: left;
+  padding: 1%;
+}
+
+#gallery__img {
+  justify-content: space-between;
+}
 /* The side navigation menu */
 .sidebar {
   margin: 0;
