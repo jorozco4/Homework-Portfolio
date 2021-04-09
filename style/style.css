@@ -17,34 +17,66 @@ p {
   font-family: "EB Garamond", serif;
 }
 
+.about-me-contact {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: medium;
+}
+
 .self-font {
   font-family: "EB Garamond", serif;
 }
 
 .about-me-section {
   background-color: rgb(18, 16, 16);
-  /* background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
-.exp {
+.card-1 {
   display: flex;
   margin-top: 2%;
 }
 
-.main {
+#self-align {
+  float: left;
+  border-style: solid;
+  border-width: 3px;
+  color: #13293d;
+}
+
+main {
   display: flex;
-  margin-top: 1%;
-  justify-content: space-evenly;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
 }
 
 .card {
-  /* A flex-basis of 200px sets the starting width */
-  /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
-  flex: 1 0 200px;
+  flex: 1 0 0;
   padding: 10px;
   text-align: center;
   border-style: solid;
-  border-width: 5px;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px;
 }
 
 /* The side navigation menu */
@@ -95,6 +127,7 @@ div.content {
   background: #007bb5;
   color: white;
 }
+
 .side-nav-github {
   padding: 10px;
   font-size: 20px;
@@ -105,6 +138,7 @@ div.content {
   background: grey;
   color: black;
 }
+
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -117,9 +151,6 @@ div.content {
 
 .fa:hover {
   opacity: 0.7;
-}
-.card.camera {
-  flex: 2 1 200px;
 }
 
 .self-info {
