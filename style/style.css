@@ -12,8 +12,9 @@ p {
   font-family: "EB Garamond", serif;
 }
 
-.self {
+.about-me-section {
   color: white;
+  font-family: "EB Garamond", serif;
 }
 
 .self-font {
@@ -25,14 +26,27 @@ p {
   /* background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
-.gallery__img {
-  float: left;
-  padding: 1%;
+.exp {
+  display: flex;
+  margin-top: 2%;
 }
 
-#gallery__img {
-  justify-content: space-between;
+.main {
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-evenly;
 }
+
+.card {
+  /* A flex-basis of 200px sets the starting width */
+  /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+}
+
 /* The side navigation menu */
 .sidebar {
   margin: 0;
@@ -81,7 +95,16 @@ div.content {
   background: #007bb5;
   color: white;
 }
-
+.side-nav-github {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: grey;
+  color: black;
+}
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -94,4 +117,12 @@ div.content {
 
 .fa:hover {
   opacity: 0.7;
+}
+.card.camera {
+  flex: 2 1 200px;
+}
+
+.self-info {
+  float: center;
+  color: white;
 }
