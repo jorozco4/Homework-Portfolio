@@ -2,11 +2,6 @@ body {
   background-color: whitesmoke;
 }
 
-h1 {
-  float: center;
-  justify-content: right;
-}
-
 p {
   font-size: large;
   font-family: "EB Garamond", serif;
@@ -26,10 +21,11 @@ p {
 .self-font {
   font-family: "EB Garamond", serif;
   text-decoration: underline;
+  color: #13293d;
 }
 
 .about-me-section {
-  background-color: rgb(18, 16, 16);
+  background-color: #13293d;
 }
 
 .self-align {
@@ -56,8 +52,11 @@ p {
 
 .self-resume {
   font-family: "EB Garamond", serif;
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
+}
+.img-resume {
+  border-width: 1px;
 }
 
 main {
@@ -98,7 +97,7 @@ main {
   margin: 0;
   padding: 0;
   width: 300px;
-  background-color: black;
+  background-color: #13293d;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -169,6 +168,28 @@ div.content {
   float: center;
   color: white;
 }
+
+/* .clm {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.row-1 {
+  float: left;
+}
+
+.row-2 {
+  float: center;
+}
+
+.row-3 {
+  float: right;
+} */
+
+/* .clm img {
+  height: 200px;
+} */
 
 @media screen and (max-width: 768px) {
   main,
