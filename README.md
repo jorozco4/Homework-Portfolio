@@ -1,6 +1,6 @@
 # Homework-Portfolio
 
-This portfolio is an updated version from what I orginially had. Below you will see screen shots of the improvments that came over time.
+This portfolio is an updated version from what I starting working on during my first month of transitioning to become a webdeveloper. Below you will see screen shots of the improvments that came over time.
 
 # Screen Shot
 
@@ -10,11 +10,14 @@ This portfolio is an updated version from what I orginially had. Below you will 
 ![image](https://user-images.githubusercontent.com/61666288/114283271-ef51b700-9a16-11eb-87a2-1a5077f471dc.png)
 ![image](https://user-images.githubusercontent.com/61666288/114283300-14dec080-9a17-11eb-90cf-84bb347b3b85.png)
 
+# Live Link
+
+1. https://jorozco4.github.io/Homework-Portfolio/
+
 # Technologies Used
 
 1. Html
 2. Css
-3. Javascript
 
 # Contact
 
