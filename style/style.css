@@ -146,3 +146,13 @@ div.content {
   background-color: white;
   border: 1px solid #13293d;
 }
+
+.main-body {
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 576px) {
+  .main-body {
+    margin: 0;
+  }
+}
