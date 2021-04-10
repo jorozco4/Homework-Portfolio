@@ -56,40 +56,7 @@ p {
   text-decoration: underline;
 }
 .img-resume {
-  border-width: 1px;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10%;
-}
-
-.main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 60px;
-  background: #13293d;
-  color: #fff;
-}
-
-.card {
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.card header {
-  padding: 20px;
-  background: #13293d;
-  color: #fff;
-}
-
-.card img {
-  width: 100%;
+  border: 1px solid #13293d;
 }
 
 .sidebar {
@@ -168,32 +135,14 @@ div.content {
   color: white;
 }
 
-/* .clm {
-  display: flex;
-  width: 20%;
-  justify-content: space-evenly;
+.portfolio-item--title {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+  align-items: center;
 }
 
-.row-1 {
-  float: left;
-}
-
-.row-2 {
-  float: center;
-}
-
-.row-3 {
-  float: right;
-} */
-
-/* .clm img {
-  height: 200px;
-} */
-
-@media screen and (max-width: 768px) {
-  main,
-  nav,
-  .product {
-    flex-direction: column;
-  }
+.porfolio-item--card {
+  background-color: white;
+  border: 1px solid #13293d;
 }
