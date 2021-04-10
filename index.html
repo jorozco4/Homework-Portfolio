@@ -44,7 +44,7 @@
       <a href="https://github.com/jorozco4" class="side-nav-github"
         ><i class="fab fa-github"></i>
       </a>
-      <a href="#home" class="fa"><i class="fa-home"></i>Home</a>
+
       <a href="#about-me" class="fa"><i class="fas fa-user-tie"></i>About Me</a>
       <a href="#experience" class="fa"><i class="fab fa-dev"></i>Experince</a>
       <a href="#resume" class="fa"><i class="fas fa-file-alt"></i>Resume</a>
@@ -73,34 +73,36 @@
             </p>
           </div>
           <div class="col-4">
-            <img src="./img/self.jpg" class="img-fluid" />
+            <img
+              src="./img/self.jpg"
+              width="50%"
+              style="float: right"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
 
-      <div class="exp">
+      <div class="container" id="experience">
         <div>
           <h1 class="self-font">Experience</h1>
         </div>
-        <section class="card">
-          <header>Javascript</header>
-        </section>
-        <section class="card">
-          <header>HTML</header>
-        </section>
-        <section class="card">
-          <header>CSS</header>
-        </section>
-        <section class="card">
-          <header>JQUERY</header>
-        </section>
+        <div class="row row-cols-3">
+          <div class="col-exp">JAVASCRIPT</div>
+          <div class="col-exp">HTML</div>
+          <div class="col-exp">CSS</div>
+          <div class="col-exp">JQUERY</div>
+          <div class="col-exp">BOOTSTRAP</div>
+          <div class="col-exp">REACT</div>
+        </div>
       </div>
+
       <br />
       <div class="container" id="resume">
         <div class="row">
           <div class="col">
-            <h1 class="self-font">Resume</h1>
-            <img src="./img/resume.jpg" />
+            <h1 class="self-resume">Resume</h1>
+            <img src="./img/resume.jpg" width="30%" />
             <a
               href="./img/Jesse_Orozco_Software_Developer_2021.pdf"
               download="jesse-martines-resume-2021"
@@ -110,12 +112,12 @@
         </div>
       </div>
       <br />
-
       <main>
-        <section class="card camera">
-          <div>
-            <h1 class="self-font" id="self-align">Projects/Activities</h1>
-          </div>
+        <div>
+          <h1 class="self-font" class="self-align">Projects/Activities</h1>
+        </div>
+
+        <section class="card camera" id="projects">
           <header>Homies</header>
           <a href="https://tsilvab.github.io/Homies/">
             <img src="./img/Homies.jpg" class="gallery__img" alt="Image 2" />
