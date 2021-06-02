@@ -2,6 +2,12 @@ body {
   background-color: whitesmoke;
 }
 
+.me {
+  color: white;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+}
+
 p {
   font-size: large;
   font-family: "EB Garamond", serif;
@@ -21,30 +27,31 @@ p {
 .self-font {
   font-family: "EB Garamond", serif;
   text-decoration: underline;
-  color: #13293d;
+  color: #8b0000;
+  text-align: center;
 }
 
 .about-me-section {
-  background-color: #13293d;
+  background-color: #8b0000;
 }
 
 .self-align {
   float: left;
   border-style: solid;
   border-width: 3px;
-  color: #13293d;
+  color: #8b0000;
 }
 
 .col {
   text-align: center;
-  color: #13293d;
+  color: #8b0000;
 }
 
 .col-exp {
   border-style: solid;
   border-width: 1px;
   text-align: center;
-  background-color: #13293d;
+  background-color: #8b0000;
   color: white;
   font-size: small;
   font-family: "EB Garamond", serif;
@@ -52,18 +59,18 @@ p {
 
 .self-resume {
   font-family: "EB Garamond", serif;
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
 }
 .img-resume {
-  border: 1px solid #13293d;
+  border: 1px solid #8b0000;
 }
 
 .sidebar {
   margin: 0;
   padding: 0;
   width: 300px;
-  background-color: #13293d;
+  background-color: #8b0000;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -112,7 +119,7 @@ div.content {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  background: grey;
+  background: rgb(8, 8, 33);
   color: black;
 }
 
@@ -137,14 +144,14 @@ div.content {
 
 .portfolio-item--title {
   padding: 20px;
-  background: #13293d;
+  background: #8b0000;
   color: #fff;
   align-items: center;
 }
 
 .porfolio-item--card {
   background-color: white;
-  border: 1px solid #13293d;
+  border: 1px solid #8b0000;
 }
 
 .main-body {
