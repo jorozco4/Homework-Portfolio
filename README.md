@@ -10,6 +10,12 @@ This portfolio is an updated version from what I starting working on during my f
 ![image](https://user-images.githubusercontent.com/61666288/114283271-ef51b700-9a16-11eb-87a2-1a5077f471dc.png)
 ![image](https://user-images.githubusercontent.com/61666288/114283300-14dec080-9a17-11eb-90cf-84bb347b3b85.png)
 
+![image](https://user-images.githubusercontent.com/61666288/121101780-82fef400-c7ca-11eb-85a8-41cf8e8c7535.png)
+
+![image](https://user-images.githubusercontent.com/61666288/121102010-f30d7a00-c7ca-11eb-83cb-0716e62048ca.png)
+
+![image](https://user-images.githubusercontent.com/61666288/121101955-d7a26f00-c7ca-11eb-9e2c-b1954248347a.png)
+
 # Live Link
 
 1. https://jorozco4.github.io/Homework-Portfolio/
@@ -18,10 +24,18 @@ This portfolio is an updated version from what I starting working on during my f
 
 1. Html
 2. Css
+3. Bootstrap
+4. Javascript
+5. Jquery
+6. Node
+7. Mysql
+8. Express
+9. React
 
-# Contact
+# Contact Info
 
-1. orozcojesse0@gmail.com
+1. Email: orozcojesse0@gmail.com
+2. GitHub Username: jorozco4
 
 # MIT License
 
