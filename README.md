@@ -10,7 +10,7 @@ This portfolio is an updated version from what I starting working on during my f
 ![image](https://user-images.githubusercontent.com/61666288/114283271-ef51b700-9a16-11eb-87a2-1a5077f471dc.png)
 ![image](https://user-images.githubusercontent.com/61666288/114283300-14dec080-9a17-11eb-90cf-84bb347b3b85.png)
 
-![image](https://user-images.githubusercontent.com/61666288/121101780-82fef400-c7ca-11eb-85a8-41cf8e8c7535.png)
+![image](https://user-images.githubusercontent.com/61666288/121102168-3536bb80-c7cb-11eb-852a-fda8c30553f6.png)
 
 ![image](https://user-images.githubusercontent.com/61666288/121102010-f30d7a00-c7ca-11eb-83cb-0716e62048ca.png)
 
